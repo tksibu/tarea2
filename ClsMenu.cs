@@ -39,7 +39,7 @@ namespace ejercicio1
                         case 6: ClsProducto.Reporte(); break;
                         default:Console.WriteLine("Opción Incorrecta");break;
                     }
-                } while (opcion != 7);
+                } while (opcion != 7); //VARIABLE DE CONTROL
             }
             catch (Exception ex)
             {

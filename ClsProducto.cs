@@ -73,7 +73,7 @@ namespace ejercicio1
 
             Console.Read();
         }
-        public static void Reporte()//GENERA UN REPORTE
+        public static void Reporte()// GENERA UN REPORTE
         {
             Console.WriteLine("Reporte de Productos: ");
             foreach (var item in producto)
@@ -84,7 +84,7 @@ namespace ejercicio1
             }
         }
 
-        public static void Consulta()//CONSULTA UN PRODUCTO
+        public static void Consulta()// CONSULTA UN PRODUCTO
         {
             int cod = 0;
 
@@ -178,7 +178,7 @@ namespace ejercicio1
             }
             Console.Read();
         }
-        public static void Venta(int codigo, int cantidad) //VENTA
+        public static void Venta(int codigo, int cantidad) //VENTA DE UN PRODUCTO
         {
             int cod = 0;
             int cant =0;
